@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4pe-p@2c6375a7hlp+%xmec-bohypv=+k0sc#b$#rne08fvzqr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['getblys-production.up.railway.app',']
 
 
 # Application definition
@@ -57,6 +57,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:8000',
+    'getblys.vercel.app',
 ]
 TEMPLATES = [
     {
